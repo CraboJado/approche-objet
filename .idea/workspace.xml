@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e18ace0b-7643-4a09-98a4-5daa12c0ae8f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="e18ace0b-7643-4a09-98a4-5daa12c0ae8f" name="Changes" comment="TP2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entites/TestPersonne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entites/TestPersonne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entites2/Personne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entites2/Personne.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1684318493375</updated>
       <workItem from="1684318494433" duration="2882000" />
-      <workItem from="1684324996990" duration="4907000" />
+      <workItem from="1684324996990" duration="5993000" />
     </task>
     <task id="LOCAL-00001" summary="TP2">
       <created>1684331283700</created>

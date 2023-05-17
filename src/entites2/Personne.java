@@ -8,10 +8,11 @@ public class Personne {
 
     public AdressePostale address;
 
-    public Personne(String nam, String fn, int snumber, String sname, int cpostal, String cty){
-        name = nam;
-        firstname = fn;
-        address = new AdressePostale(snumber,sname,cpostal,cty);
+    public Personne(String name, String firstname, AdressePostale address){
+        this.name = name;
+        this.firstname = firstname;
+        this.address = address
+        ;
     }
 
 
