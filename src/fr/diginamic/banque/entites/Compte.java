@@ -25,11 +25,11 @@ public class Compte {
         this.balance = balance;
     }
 
-/*    @Override
+    @Override
     public String toString() {
-        return "Compte{" +
+        return "CompteNormal {" +
                 "account='" + account + '\'' +
                 ", balance=" + balance +
                 '}';
-    }*/
+    }
 }

@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e18ace0b-7643-4a09-98a4-5daa12c0ae8f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/Compte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/TestMethodeStatic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/CompteTaux.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entites2/Personne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entites2/Personne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/diginamic/banque/TestBanque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/diginamic/banque/TestBanque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/Compte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/diginamic/banque/entites/Compte.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +47,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="fr.diginamic.banque" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.TestBanque">
     <configuration name="TestAdressePostale" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="entites.TestAdressePostale" />
@@ -121,7 +124,7 @@
       <updated>1684318493375</updated>
       <workItem from="1684318494433" duration="2882000" />
       <workItem from="1684324996990" duration="8777000" />
-      <workItem from="1684741282986" duration="4151000" />
+      <workItem from="1684741282986" duration="7403000" />
     </task>
     <task id="LOCAL-00001" summary="TP2">
       <created>1684331283700</created>
@@ -151,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684337293032</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="TP encapsulation done">
+      <created>1684747547738</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684747547738</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +171,7 @@
     <MESSAGE value="TP2" />
     <MESSAGE value="TP2 done" />
     <MESSAGE value="TP3 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP3 done" />
+    <MESSAGE value="TP encapsulation done" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP encapsulation done" />
   </component>
 </project>
