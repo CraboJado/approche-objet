@@ -8,6 +8,14 @@ public class CompteTaux extends Compte {
         this.rate = rate;
     }
 
+    public double getRate() {
+        return rate;
+    }
+
+    public void setRate(double rate) {
+        this.rate = rate;
+    }
+    @Override
     public String toString(){
         String accountInfo = super.toString();
         return "Compte rate:" + rate + '\'' + "accountInfo" + accountInfo;
