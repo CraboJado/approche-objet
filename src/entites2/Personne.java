@@ -4,6 +4,8 @@ import entites.AdressePostale;
 
 public class Personne {
     public String name;
+    //private String name;
+    // mauvais pratique , il faut priveriser pour les attributes
     public String firstname;
 
     public AdressePostale address;
@@ -33,15 +35,15 @@ public class Personne {
     }
 
     public String getName(){
-        return name;
+        return this.name;
     }
 
     public String getFirstname(){
-        return firstname;
+        return this.firstname;
     }
 
     public AdressePostale getAddress(){
-        return address;
+        return this.address;
     }
 
     @Override
