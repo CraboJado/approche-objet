@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e18ace0b-7643-4a09-98a4-5daa12c0ae8f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tr/TestTriVille.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/listes/Ville.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listes/Ville.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -143,7 +141,7 @@
       <workItem from="1684324996990" duration="8777000" />
       <workItem from="1684741282986" duration="24547000" />
       <workItem from="1684876331340" duration="3769000" />
-      <workItem from="1684914959156" duration="3316000" />
+      <workItem from="1684914959156" duration="3632000" />
     </task>
     <task id="LOCAL-00001" summary="TP2">
       <created>1684331283700</created>
@@ -222,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684880108981</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="TP13 EX1 done">
+      <created>1684924806038</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1684924806038</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,6 +244,7 @@
     <MESSAGE value="TP10 EX3 done" />
     <MESSAGE value="TP10 EX4 done" />
     <MESSAGE value="TP10 EX5 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP10 EX5 done" />
+    <MESSAGE value="TP13 EX1 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP13 EX1 done" />
   </component>
 </project>

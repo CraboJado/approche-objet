@@ -27,8 +27,13 @@ public class Ville implements Comparable<Ville>{
 
     @Override
     public int compareTo(Ville autre) {
-        int result = this.name.compareTo(autre.getName());
-        return result;
+        if(this.number > autre.getNumber()){
+            return 1;
+        }
+        if(this.number < autre.getNumber()){
+            return - 1;
+        }
+        return 0;
     }
 
     @Override
