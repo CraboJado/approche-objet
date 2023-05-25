@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e18ace0b-7643-4a09-98a4-5daa12c0ae8f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fichier/CreerFichier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fichier/LectureFichier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fichier/Ville.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tr/ComparatorHabitan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tr/ComparatorNom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/CreationEtManipulationMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/CreationMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/FusionMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/MapVilles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/listes/Ville.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listes/Ville.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tr/TestTriVille.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tr/TestTriVille.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,13 +61,39 @@
       <recent name="tr" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LectureFichier">
-    <configuration name="CreerFichier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fichier.CreerFichier" />
+  <component name="RunManager" selected="Application.MapVilles">
+    <configuration name="CreationEtManipulationMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="maps.CreationEtManipulationMap" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fichier.*" />
+          <option name="PATTERN" value="maps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreationMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="maps.CreationMap" />
+      <module name="approche-objet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="maps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FusionMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="maps.FusionMap" />
+      <module name="approche-objet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="maps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,38 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestListeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="listes.TestListeString" />
+    <configuration name="MapVilles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="maps.MapVilles" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="listes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestTriVille" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tr.TestTriVille" />
-      <module name="approche-objet" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tr.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestVille" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="listes.TestVille" />
-      <module name="approche-objet" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="listes.*" />
+          <option name="PATTERN" value="maps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MapVilles" />
+        <item itemvalue="Application.FusionMap" />
+        <item itemvalue="Application.CreationEtManipulationMap" />
+        <item itemvalue="Application.CreationMap" />
         <item itemvalue="Application.LectureFichier" />
-        <item itemvalue="Application.CreerFichier" />
-        <item itemvalue="Application.TestTriVille" />
-        <item itemvalue="Application.TestVille" />
-        <item itemvalue="Application.TestListeString" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +149,7 @@
       <workItem from="1684324996990" duration="8777000" />
       <workItem from="1684741282986" duration="24547000" />
       <workItem from="1684876331340" duration="3769000" />
-      <workItem from="1684914959156" duration="20061000" />
+      <workItem from="1684914959156" duration="23502000" />
     </task>
     <task id="LOCAL-00001" summary="TP2">
       <created>1684331283700</created>
@@ -244,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684925116853</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="TP15 done">
+      <created>1685015791404</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1685015791404</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,6 +268,7 @@
     <MESSAGE value="TP10 EX5 done" />
     <MESSAGE value="TP13 EX1 done" />
     <MESSAGE value="TP13 EX2 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP13 EX2 done" />
+    <MESSAGE value="TP15 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP15 done" />
   </component>
 </project>

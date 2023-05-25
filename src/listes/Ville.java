@@ -17,7 +17,7 @@ public class Ville implements Comparable<Ville>{
         this.name = name;
     }
 
-    public double getNumber() {
+    public long getNumber() {
         return number;
     }
 
