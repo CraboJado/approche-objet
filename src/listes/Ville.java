@@ -2,9 +2,9 @@ package listes;
 
 public class Ville implements Comparable<Ville>{
     private String name;
-    private double number;
+    private long number;
 
-    public Ville(String name, double number) {
+    public Ville(String name, long number) {
         this.name = name;
         this.number = number;
     }
@@ -21,7 +21,7 @@ public class Ville implements Comparable<Ville>{
         return number;
     }
 
-    public void setNumber(double number) {
+    public void setNumber(long number) {
         this.number = number;
     }
 

@@ -20,7 +20,17 @@ public class TestTriVille {
         Collections.sort(list);
 
         for(Ville ele: list){
-            System.out.println(ele);
+            System.out.println("sort avec implement comparable: " + ele);
+        }
+
+        Collections.sort(list, new ComparatorHabitan());
+        for(Ville ele: list){
+            System.out.println("sort avec ComparatorHabitan: " +ele);
+        }
+
+        Collections.sort(list, new ComparatorNom());
+        for(Ville ele: list){
+            System.out.println("sort avec ComparatorNom: " + ele);
         }
     }
 }
