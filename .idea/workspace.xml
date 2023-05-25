@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e18ace0b-7643-4a09-98a4-5daa12c0ae8f" name="Changes" comment="TP12 EX5 done">
-      <change afterPath="$PROJECT_DIR$/src/entites/Ampoule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/diginamic/essais/TestAmpoule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e18ace0b-7643-4a09-98a4-5daa12c0ae8f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/entites/Cercle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/diginamic/essais/TestCercle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,22 +57,9 @@
       <recent name="tr" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestAmpoule">
+  <component name="RunManager" selected="Application.TestCercle">
     <configuration name="ComptagePaysParContinent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="maps.ComptagePaysParContinent" />
-      <module name="approche-objet" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="maps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreationEtManipulationMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="maps.CreationEtManipulationMap" />
       <module name="approche-objet" />
       <extension name="coverage">
         <pattern>
@@ -124,13 +110,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestCercle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.essais.TestCercle" />
+      <module name="approche-objet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.diginamic.essais.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestCercle" />
         <item itemvalue="Application.TestAmpoule" />
         <item itemvalue="Application.ComptagePaysParContinent" />
         <item itemvalue="Application.MapVilles" />
         <item itemvalue="Application.FusionMap" />
-        <item itemvalue="Application.CreationEtManipulationMap" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +145,7 @@
       <workItem from="1684324996990" duration="8777000" />
       <workItem from="1684741282986" duration="24547000" />
       <workItem from="1684876331340" duration="3769000" />
-      <workItem from="1684914959156" duration="33821000" />
+      <workItem from="1684914959156" duration="35240000" />
     </task>
     <task id="LOCAL-00001" summary="TP2">
       <created>1684331283700</created>
@@ -267,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685024700139</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="TP Ampoule done">
+      <created>1685030249324</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1685030249324</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,6 +296,7 @@
     <MESSAGE value="TP12 done" />
     <MESSAGE value="TP12 done rewrite" />
     <MESSAGE value="TP12 EX5 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP12 EX5 done" />
+    <MESSAGE value="TP Ampoule done" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP Ampoule done" />
   </component>
 </project>
