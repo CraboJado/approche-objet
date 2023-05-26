@@ -15,7 +15,7 @@ public class TestEnumeration {
         System.out.println(season);
         System.out.println(season.getName());
 
-        Saison s = season.getInstance("Automne");
+        Saison s = Saison.getInstance("Automne");
         System.out.println(s);
     }
 }

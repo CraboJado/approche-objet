@@ -29,7 +29,7 @@ public enum Saison {
         this.order = order;
     }
 
-    public Saison getInstance (String label){
+    public static Saison getInstance (String label){
         Saison[] seasons = Saison.values();
         Saison sTarget = null;
         for (Saison s:seasons ) {
@@ -38,5 +38,10 @@ public enum Saison {
             }
         }
         return  sTarget;
+    }
+
+    @Override
+    public String toString() {
+        return name + " " + order;
     }
 }
