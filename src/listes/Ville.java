@@ -1,12 +1,17 @@
 package listes;
 
+import fr.diginamic.testenumeration.Continent;
+
 public class Ville implements Comparable<Ville>{
     private String name;
     private long number;
 
-    public Ville(String name, long number) {
+    private Continent continent;
+
+    public Ville(String name, long number , Continent continent) {
         this.name = name;
         this.number = number;
+        this.continent = continent;
     }
 
     public String getName() {
@@ -25,6 +30,14 @@ public class Ville implements Comparable<Ville>{
         this.number = number;
     }
 
+    public Continent getContinent() {
+        return continent;
+    }
+
+    public void setContinent(Continent continent) {
+        this.continent = continent;
+    }
+
     @Override
     public int compareTo(Ville autre) {
         if(this.number > autre.getNumber()){
@@ -41,6 +54,7 @@ public class Ville implements Comparable<Ville>{
         return "Ville{" +
                 "name='" + name + '\'' +
                 ", number=" + number +
+                ", continent =" + continent +
                 '}';
     }
 

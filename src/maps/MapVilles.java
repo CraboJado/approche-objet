@@ -1,5 +1,6 @@
 package maps;
 
+import fr.diginamic.testenumeration.Continent;
 import listes.Ville;
 
 import java.util.HashMap;
@@ -9,9 +10,9 @@ public class MapVilles {
     public static void main(String[] args) {
 
         HashMap<String, Ville> map = new HashMap<>();
-        Ville ville1 = new Ville("Montpellier", 800200);
-        Ville ville2 = new Ville("Lyon", 200300);
-        Ville ville3 = new Ville("Lille", 100300);
+        Ville ville1 = new Ville("Montpellier", 800200, Continent.EUROPE);
+        Ville ville2 = new Ville("Lyon", 200300, Continent.EUROPE);
+        Ville ville3 = new Ville("Lille", 100300, Continent.EUROPE);
 
         map.put(ville1.getName(),ville1);
         map.put(ville2.getName(),ville2);
